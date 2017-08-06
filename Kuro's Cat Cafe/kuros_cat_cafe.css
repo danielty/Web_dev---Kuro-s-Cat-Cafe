@@ -1,0 +1,168 @@
+/*body*/
+/*The background is a linear-gradient of white to black is reflective of Kuro's "towards brighter days" mission*/
+body{
+	 background-image: linear-gradient(to bottom, #FFFFFF, #000000);
+     font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+     margin-left: 10px;
+     margin-top: 10px;
+}
+/*--------------------------------------------------*/
+
+
+/*class*/
+/*Visual Addtions*/
+nav .current{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    color: black;
+    text-shadow: 2px 2px 8px #006699;
+}
+p.double-space{
+	line-height: 50px;
+    text-indent: 10px;
+}
+/*--------------------------------------------------*/
+
+
+/*header*/
+/*The title*/
+header h1{
+     border: 15px ridge #006699;
+     border-radius: 15px;
+     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+     font-size: 50px;
+     margin: 20px 10px 20px 10px; /*top, right, bottom, left*/
+     max-width: 1250px;
+     padding-left: 10px;
+     text-align: left;
+}
+header img{
+     margin-bottom: -10px;
+     margin-left: 10px;
+     margin-right: 10px;
+     margin-top: 10px;
+     border-radius: 15px;
+}
+/*h2*/
+/*The mini-title*/
+h2{
+    background-color: #FFFFFF;
+    border-bottom-style: double;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    box-shadow: 10px 10px;
+    font-size: 20pt;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    max-width: 1250px;  /*set the max that it will expand*/
+    text-align: center;
+}
+/*h3*/
+/*The paragraph(s)*/
+h3 div{
+    margin:10px 10px 120px 10px;
+}
+/*h3*/
+/*The paragraph(s)'s accompanying pictures*/
+h3 img{
+    border: 6px solid #000000;
+    border-radius: 15px;
+    float: left;
+    margin: -5px -5px -5px 10px
+}
+/*--------------------------------------------------*/
+
+
+/*div*/
+/*To group format all the h3 paragraphs, unifomaly*/
+div p{
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    margin-left: 15px;
+    max-width: 1200px;     
+}
+/*--------------------------------------------------*/
+
+
+/*Footer*/
+/*The footer follow the user; contains info about the website*/
+footer{
+    background-color: #FFFFFF;
+    bottom: 0px;
+    font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-size: 15px;
+    left: 0px;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+}
+footer li{
+    display: inline;
+    float: center;
+    list-style-type: none;
+    padding: 10px;
+}
+/*--------------------------------------------------*/
+
+
+ /*main*/
+/*Located within the webpage's body*/
+main{
+    margin: 20px 10px 250px 10px; /*top, right, bottom, left*/
+}
+/*--------------------------------------------------*/
+
+
+/*naviagtion bar*/
+/*To help the user navigate between the five webpages of the website */
+nav ul{
+     background-color: black;
+     border: 15px ridge #006699;
+     border-radius: 15px;
+     font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+     font-size: 20px;
+     list-style-type: none;
+     margin: 0px 10px 0px 10px; /*top, right, bottom, left*/
+     overflow: visible;
+     padding: 0px;
+     position: absolute;
+     word-break: break-all;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    color: FFFFFF;
+    display:block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration:none;
+}
+/*hover*/
+/* Change the link color to white on hover */
+nav li a:hover{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    color: black;
+}
+/*--------------------------------------------------*/
+
+
+/*table*/
+/*The menu*/
+table{
+	background-color: #FFFFFF;
+    border-radius: 15px;
+	float:left;
+	margin-left: 40px;
+	margin-right: 40px
+    text-indent: 10px;
+    width: 1150px;
+    word-break: break-all;
+}
+
+
+
+
